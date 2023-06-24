@@ -1,6 +1,5 @@
 #pragma once
 
-#include "observer_interface.h"
 #include "subject_interface.h"
 
 class Subject : public ISubject {

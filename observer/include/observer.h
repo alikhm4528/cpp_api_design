@@ -1,6 +1,6 @@
 #pragma once
 
-#include "subject.h"
+#include "observer_interface.h"
 #include <iostream>
 
 class Observer : public IObserver {
