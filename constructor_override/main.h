@@ -5,4 +5,6 @@ public:
     }
 private:
     int a;
+    class Impl;
+    Impl* impl;
 };

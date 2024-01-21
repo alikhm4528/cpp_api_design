@@ -4,16 +4,12 @@ void redundant(int a) {
 
 }
 
-#define Foo(a) redundant(a)
+#define private public
 #include "main.h"
-#undef Foo
-
-class Bar : Foo {
-    Bar(int a) {
-        
-    }
-};
+#undef private
 
 int main() {
+	Foo foo(11);
+	foo.a = 10;
     return 0;
 }
